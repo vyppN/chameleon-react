@@ -36,16 +36,14 @@ import React from 'react'
 
 import Chameleon from '@vyppn/chameleon-react'
 
-class App extends React.Component {
+export default () => {
 
   // Usage
   const {result,error} = await Chameleon(imageURL)
   
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
+  return (
+    <MyComponent />
+  )
 }
 ```
 
