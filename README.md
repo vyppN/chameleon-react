@@ -1,23 +1,37 @@
-# @vyppn/chameleon
+# @vyppn/chameleon-react
 
 > Get dominant colors from image
 
 [![NPM](https://img.shields.io/npm/v/@vyppn/chameleon.svg)](https://www.npmjs.com/package/@vyppn/chameleon) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+# Example
+
+http://vyppn-chameleon.surge.sh
+
 ## Install
 
 ```bash
-npm install --save @vyppn/chameleon
+npm install --save @vyppn/chameleon-react
+```
+
+or
+
+```bash
+yarn add @vyppn/chameleon-react
 ```
 
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import React from 'react'
 
-import MyComponent from '@vyppn/chameleon'
+import Chameleon from '@vyppn/chameleon-react'
 
-class Example extends React.Component {
+class App extends React.Component {
+
+  // Usage
+  const {result,error} = await Chameleon(imageURL)
+  
   render () {
     return (
       <MyComponent />
