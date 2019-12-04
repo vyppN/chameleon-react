@@ -12,7 +12,8 @@ Get dominant colors from image for your react application<br/>
 
 # Example
 
-Check how does it in [Live Demo](http://vyppn-chameleon.surge.sh)
+Check how does it in [Live Demo](http://vyppn-chameleon.surge.sh)<br/>
+![img](https://live.staticflickr.com/65535/49169306922_f99203666a_k.jpg)
 
 ## Install
 
