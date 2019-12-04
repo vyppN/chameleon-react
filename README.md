@@ -6,7 +6,7 @@
 
 # What is it made for?
 
-Get dominant colors from image for your react application
+Get dominant colors from image for your react application<br/>
 <b>React Native and Expo compatible</b>
 
 
