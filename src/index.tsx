@@ -25,8 +25,6 @@ const fetchData = (imageURL: string):Promise<any> => {
     });
     if (response.status == 200) {
       let responseJson = await response.json();
-      // var message = responseJson.messess
-      // console.log(responseJson)
       resolve(responseJson);
     } else {
       reject('Server Error');
