@@ -28,7 +28,7 @@ yarn add @vyppn/chameleon-react
 
 ## Usage
 
-The <pre>result</pre> will give the list of 5 dominant Hex colors.
+The <b>result</b> will give the list of 5 dominant Hex colors.
 
 
 ```tsx
