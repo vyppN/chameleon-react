@@ -4,6 +4,10 @@
 
 [![NPM](https://img.shields.io/npm/v/@vyppn/chameleon.svg)](https://www.npmjs.com/package/@vyppn/chameleon) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+# Example
+
+http://vyppn-chameleon.surge.sh
+
 ## Install
 
 ```bash
