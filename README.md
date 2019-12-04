@@ -1,4 +1,4 @@
-# @vyppn/chameleon
+# @vyppn/chameleon-react
 
 > Get dominant colors from image
 
@@ -7,17 +7,27 @@
 ## Install
 
 ```bash
-npm install --save @vyppn/chameleon
+npm install --save @vyppn/chameleon-react
+```
+
+or
+
+```bash
+yarn add @vyppn/chameleon-react
 ```
 
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import React from 'react'
 
-import MyComponent from '@vyppn/chameleon'
+import Chameleon from '@vyppn/chameleon-react'
 
-class Example extends React.Component {
+class App extends React.Component {
+
+  // Usage
+  const {result,error} = await Chameleon(imageURL)
+  
   render () {
     return (
       <MyComponent />
