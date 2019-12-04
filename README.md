@@ -1,12 +1,18 @@
 # @vyppn/chameleon-react
 
-> Get dominant colors from image
+> Get dominant colors from image for your react application
 
 [![NPM](https://img.shields.io/npm/v/@vyppn/chameleon.svg)](https://www.npmjs.com/package/@vyppn/chameleon) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+# What is it made for?
+
+Get dominant colors from image for your react application
+<b>React Native and Expo compatible</b>
+
+
 # Example
 
-http://vyppn-chameleon.surge.sh
+Check how does it in [Live Demo](http://vyppn-chameleon.surge.sh)
 
 ## Install
 
